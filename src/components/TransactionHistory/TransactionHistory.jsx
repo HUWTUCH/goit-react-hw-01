@@ -1,5 +1,5 @@
-import transactionHistory from "../../data/transactionHistory.json";
-import transactionHistoryStyle from "./transactionHistory.module.css"
+import transactionHistory from "../../Data/TransactionHistory.json";
+import transactionHistoryStyle from "./TransactionHistory.module.css"
 const TransactionHistory = () => {
     return (
         <table className={transactionHistoryStyle.table}>

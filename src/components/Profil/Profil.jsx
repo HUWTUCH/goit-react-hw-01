@@ -1,4 +1,4 @@
-import profileStyle from "./profil.module.css";
+import profileStyle from "./Profil.module.css";
 const Profil = (props) => {
     return (
         <div className={profileStyle.profile}>

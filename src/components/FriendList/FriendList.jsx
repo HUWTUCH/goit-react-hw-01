@@ -1,6 +1,6 @@
-import friends from "../../data/friends.json";
-import FriendListItem from "../friendListItem/friendListItem.jsx";
-import friendListStyle from "./friendList.module.css";
+import friends from "../../Data/Friends.json";
+import FriendListItem from "../FriendListItem/FriendListItem.jsx";
+import friendListStyle from "./FriendList.module.css";
 const friendList = () => {
     return (
         <ul className={friendListStyle.listFriends}>
