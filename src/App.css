@@ -1,10 +1,14 @@
 @import "components/Profil/profil.module.css";
-
+@import "components/friendList/friendList.module.css";
 #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  gap: 100px;
 }
 
 .logo {
