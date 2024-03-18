@@ -1,5 +1,5 @@
 import profileStyle from "./Profil.module.css";
-const Profil = (props) => {
+const Profile = (props) => {
     return (
         <div className={profileStyle.profile}>
             <div>
@@ -32,4 +32,4 @@ const Profil = (props) => {
     )
 }
 
-export default Profil;
+export default Profile;
