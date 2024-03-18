@@ -3,9 +3,3 @@
     display: flex;
     gap: 100px;
 }
-.online {
-    color: green;
-}
-.offline {
-    color: red;
-}

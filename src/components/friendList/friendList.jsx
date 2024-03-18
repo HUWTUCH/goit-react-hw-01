@@ -1,11 +1,21 @@
-const FriendList = (friend) => {
-    const statusClass = friend.isOnline ? 'online' : 'offline'
+import friends from "../../data/friends.json";
+import FriendListItem from "../friendListItem/friendListItem.jsx";
+import friendListStyle from "./friendList.module.css";
+const friendList = () => {
     return (
-        <div>
-            <img src={friend.img} alt="Avatar" width="48" className="img-fried"/>
-            <p className='name-friend'>{friend.name}</p>
-            <p className={`isOnline-friend ${statusClass}`}>{friend.isOnline ? "Online" : "Offline"}</p>
-        </div>
+        <ul className={friendListStyle.listFriends}>
+            {friends.map(friend => {
+                return (
+                    <li key={friend.id} >
+                        <FriendListItem
+                            img={friend.avatar}
+                            name={friend.name}
+                            isOnline={friend.isOnline}
+                        />
+                    </li>
+                )
+            })}
+        </ul>
     )
 }
-export default FriendList;
+export default friendList;

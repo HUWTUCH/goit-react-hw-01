@@ -1,5 +1,3 @@
-@import "components/Profil/profil.module.css";
-@import "components/friendList/friendList.module.css";
 #root {
   display: flex;
   flex-direction: column;
