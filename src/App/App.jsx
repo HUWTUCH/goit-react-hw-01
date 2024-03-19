@@ -1,5 +1,5 @@
 import './App.css'
-import Profile from "../components/Profil/Profile.jsx";
+import Profile from "../components/Profile/Profile.jsx";
 import userData from "../Data/UserData.json";
 import FriendList from "../components/FriendList/FriendList.jsx";
 import TransactionHistory from "../components/TransactionHistory/TransactionHistory.jsx";
